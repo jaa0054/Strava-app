@@ -26,7 +26,7 @@
               "src/favicon.ico",
               "src/assets",
               {
-                "glob": "bootsrap-icons.svg",
+                "glob": "bootstrap-icons.svg",
                 "input": "./node_modules/bootstrap-icons/",
                 "output": "/assets/"
               }
