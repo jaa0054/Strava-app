@@ -24,7 +24,12 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              {
+                "glob": "bootsrap-icons.svg",
+                "input": "./node_modules/bootstrap-icons/",
+                "output": "/assets/"
+              }
             ],
             "styles": [
               "src/styles.css",
