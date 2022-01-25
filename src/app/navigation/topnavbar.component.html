@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="/assets/Strava-Logo.png" alt="" width="120" height="90">
+        <img src="/assets/strava-logo-orange.svg" alt="" width="120" height="55">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -15,14 +15,25 @@
             <a class="nav-link" href="#">Link</a>
           </li>-->
           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="/assets/search.svg" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Search
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>              
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dashboard
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Activity Feed</a></li>
+              <li><a class="dropdown-item" href="#">My Segments</a></li>
+              <li><a class="dropdown-item" href="#">My Routes</a></li>             
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
+              <li><a class="dropdown-item" href="#">My Goals</a></li>
+              <li><a class="dropdown-item" href="#">HeatMaps</a></li>
             </ul>
           </li>
           <li class="nav-item dropdown">
@@ -53,8 +64,7 @@
         
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+          
         </form>
       </div>
     </div>
