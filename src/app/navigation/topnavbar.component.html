@@ -1,32 +1,28 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">
-        <img src="/assets/strava-logo-orange.svg" alt="" width="100" height="40">
+<nav class="navbar navbar-expand-lg navbar-light " style="background-color: #ffffff; font-family:Segoe UI; font-size:14px;"> <!--a set of navigation links-->
+    <div class="container-fluid"> <!--a section styled with CSS-->
+      <a class="navbar-brand" href="#"> <!--defines a hyperlink-->
+        <img src="/assets/strava-logo-orange.svg" width="100" height="40"> <!--an image-->
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" ></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!--a clickable button-->
+        <span class="navbar-toggler-icon"></span> <!--used to color a part of text-->
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <!--<li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>-->
-          <!--<li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>-->
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <img src="/assets/search.svg" alt="" width="24" height="24">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0"> <!--unordered list-->
+
+          <li class="nav-item dropdown"> <!--list item-->
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="/assets/search.svg" alt="" width="32" height="32">
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>              
-            </ul>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> <!--input box-->
+                <button class="btn btn-outline-success" type="submit">Search</button>              
+              </ul>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="\assets\dropdown-arrow.svg" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dashboard
-              <span><img src="/assets/dropdown-arrow.svg" alt="" width="24" height="24"></span>
+              <span><img src="/assets/dropdown-arrow.svg" alt="" width="14" height="17"></span>
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Activity Feed</a></li>
@@ -37,10 +33,11 @@
               <li><a class="dropdown-item bg-secondary" href="#">HeatMaps</a></li>
             </ul>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Training
-              <span><img src="/assets/dropdown-arrow.svg" alt="" width="24" height="24"></span>
+              <img src="/assets/dropdown-arrow.svg" alt="" width="14" height="17">
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -49,10 +46,11 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
+
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Explore
-              <span><img src="/assets/dropdown-arrow.svg" alt="" width="24" height="24"></span>
+              <img src="/assets/dropdown-arrow.svg" alt="" width="14" height="17">
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Action</a></li>
@@ -61,27 +59,43 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="#">Challenges</a>
           </li>
-          <button type="button" class="btn  btn-primary ">Give a Subscription</button>
+
+          
+        </ul>
+
+        <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+
+          <button type="button" class="btn" style="background-color: #fc5200; color:white; font-size:12px"><b>Give a Subscription</b></button>
         
-          <li class="nav-item">
+          <li class="nav-item m-2">
             <a class="nav-link float-end" href="#">
-              <img src="/assets/alert button.svg" alt="" width="20" height="20">
+              <img class="m-2" src="/assets/alert button.svg" alt="" width="20" height="20">
             </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img id="profile" class="m-2" src="/assets/profile-pic.png" width="32" height="32">
+              <img  class="m-2" src="/assets/dropdown-arrow.svg" width="14" height="17">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">Find Friends</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Logout</a></li>
+            </ul>
           </li>
 
           <li class="nav-item">
             <a class="nav-link float-end" href="#">
-              <img src="/assets/add-button.svg" alt="" width="24" height="24">
+              <img class="m-3" src="/assets/add-button.svg" alt="" width="24" height="24">
             </a>
           </li>
-        
         </ul>
-        <form class="d-flex">
-          
-        </form>
+
       </div>
     </div>
   </nav>
