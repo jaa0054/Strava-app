@@ -9,3 +9,7 @@
 .dropdown-arrow {
     width: 50px;
 }
+
+a:hover {
+    color: #fc5200;
+  }
