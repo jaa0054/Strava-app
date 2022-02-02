@@ -1,8 +1,36 @@
-.avatar-pic{
-    border-radius: 50%;
-    vertical-align: middle;
+.card{
+    margin-top: 70px;
+    margin-left: 30px;
+    border-color: white;
+    border-radius: 3px;
 }
 
-img{
-    vertical-align: middle;
+.right-side{
+    margin-left: 10px;
+}
+
+a.challenge-names:link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+
+.challenge-statement{
+    font-size: small;
+}
+
+a:hover{
+    color: #007FB6;
+}
+
+.challenge-title{
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.participants-text{
+    font-size: small;
+    color: rgb(70, 70, 70);
 }

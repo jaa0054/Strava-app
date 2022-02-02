@@ -1,8 +1,102 @@
-.avatar-pic{
-    border-radius: 50%;
-    vertical-align: middle;
+.card{
+    margin-top: 70px;
+    margin-left: 30px;
+    border-color: white;
+    border-radius: 3px;
 }
 
-img{
-    vertical-align: middle;
+
+
+a:link{
+    text-decoration: none;
+    color: black;
 }
+
+a:hover{
+    color: #007FB6;
+}
+
+.avatar-pic{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left: 7rem;
+    margin-top: -35px;
+}
+
+
+.badge{
+    top: -25px;
+    margin-left: -5px;
+}
+
+.premium-badge{
+    width: 24px;
+    height: 24px;
+}
+
+.card-title{
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 70px;
+}
+
+
+.followers-columns{
+    font-size: 12px;
+}
+
+.followers-list{
+    display: inline-flex;
+}
+
+.followers-item{
+    margin-left: 10px;
+}
+
+.foll-num{
+ font-size: large;
+}
+
+
+#vert-bar{
+    border-left:2px solid rgb(240, 240, 240);
+    height:30px; 
+    margin-top: 10px; 
+    margin-left: 5px;
+}
+
+a.follower-nums{
+    font-size: large;
+    margin-left: 14px;
+}
+
+a.latest-activity{
+    font-size: small;
+}
+
+#latest-act-text{
+    font-size: small;
+}
+
+.training-log-text{
+    font-size: small;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -10px;
+
+}
+
+#training-log-arrow{
+    margin-left: 125px;
+}
+
+p{
+    margin: 0;
+}
+
+
+
