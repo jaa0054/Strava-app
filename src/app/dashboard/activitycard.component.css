@@ -5,11 +5,59 @@
     border-radius: 3px;
 }
 
+.avatar-pic{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: -2rem;
+    margin-top: 0px;
+}
+
+.kudo-pic{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-color: white;
+    margin-left: -10px;
+    margin-top: 0px;
+    border: 2px solid #ffff;
+}
+
+.kudos-comments{
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+
+.kudos{
+    font-size: small;
+    color: grey;
+    margin-right: 135px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.kudo-btn{
+    background-color: #f7f7f7; 
+    color:white; 
+    height: 20px;
+}
+
+
+.badge{
+    top: 20px;
+    margin-left: -5px;
+}
+
+.premium-badge{
+    width: 18px;
+    height: 18px;
+}
+
 .right-side{
     margin-left: 10px;
 }
 
-a.challenge-names:link{
+a:link{
     color: black;
     text-decoration: none;
     font-weight: bold;
@@ -24,13 +72,98 @@ a:hover{
     color: #007FB6;
 }
 
-.challenge-title{
+#activity-title{
     text-decoration: none;
-    font-size: x-large;
+    font-size: large;
     font-weight: bold;
+    margin-left: 10px;
+    margin-top: -5px;
 }
 
 .participants-text{
     font-size: small;
     color: rgb(70, 70, 70);
+}
+
+
+
+
+
+
+
+.activity-header{
+    font-size: 12px;
+}
+
+.activity-header-items{
+    display: inline-flex;
+    margin-left: -20px;
+
+}
+
+.bike-logo{
+    margin-left: 5px;
+}
+
+.acheivement-logo{
+    margin-left: 5px;
+}
+
+.activity-header-item{
+    margin-left: 30px;
+}
+
+.activity-stats{
+    font-size: 12px;
+}
+
+.activity-stat-items{
+    display: inline-flex;
+    margin-left: 20px;
+    color: grey;
+}
+
+.activity-stat-item{
+    margin-left: 30px;
+}
+
+
+a.stat-nums{
+    font-size: large;
+    font-weight: lighter;
+}
+
+#vert-bar{
+    border-left:2px solid rgb(240, 240, 240);
+    height:30px; 
+    margin-top: 10px; 
+    margin-left: 25px;
+    margin-right: 0px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -10px;
+
+}
+
+li{
+    margin-bottom: 0px;
+}
+
+.activity-header{
+    margin-bottom: -25px;
+}
+
+.acheivements-logo{
+    margin-left: 10px;
+    font-size:x-large;
+    font-weight: lighter;
+}
+
+
+
+.acheivement-img{
+    margin-right: 5px;
 }

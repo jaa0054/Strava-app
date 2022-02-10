@@ -1,0 +1,35 @@
+export const activity_list = [
+    {
+        img : "/assets/route1.png",
+        title : "Zwift - TdZ Stage 1: Long Ride",
+        user : "Bill Rains",
+        tod : "10:00 AM",
+        miles : 47.82,
+        elev : 8028,
+        time : "4h 31m",
+        acheiv : 5,
+        kudos : 80,
+    },
+    {
+        img : "/assets/route2.png",
+        title : "Afternoon Ride",
+        user : "Jack Amling",
+        tod : "2:06 PM",
+        miles : 6.52,
+        elev : 512,
+        time : "46m 31s",
+        acheiv : 2,
+        kudos : 12,
+    }, 
+    {
+        img : "/assets/route3.png",
+        title : "Morning Ride",
+        user : "Chase Mathias",
+        tod : "9:32 AM",
+        miles : 23.54,
+        elev : 813,
+        time : "1h 37m",
+        acheiv : 12,
+        kudos : 14,
+    }
+];

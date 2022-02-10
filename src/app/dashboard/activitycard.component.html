@@ -1,26 +1,108 @@
 <div class="card m-3" style="max-width: 592px;">
-  <div class="m-3">
-  <div class="challenge-statement">
-    <a class="link-dark challenge-names" href="#">{{users}}</a>
-    joined a challenge
-  </div>
-  <hr class="my-3">
-  <div class="row g-0">
-    <div class="col-md-2">
-      <img src="{{img}}" class="img-fluid rounded-start" width="80px" height="80px">
+    <div class="m-3">
+
+        <div class="activity-header">
+            <ul class="activity-header-items">
+              <li>
+                  <div class="activity-header-item">
+                    <div class="avatar-body">
+                        <img src="/assets/avatar-pic.png" class="avatar-pic">
+                        <span class="position-absolute  translate-middle badge"><img src="/assets/premium-badge.svg" class="premium-badge"></span>
+                       <!--<img src="/assets/premium-badge.svg" class="premium-badge">-->
+                </div>                  <br>
+                </div>
+              </li>
+              <li>
+                  <div class="activity-header-item">
+                    <a href="#" class="link-dark">{{user}}</a>
+                  <br>
+                  Today at {{tod}}
+                  </div>
+              </li>
+            </ul>
+            </div>
+
+                <ul class="activity-header-items">
+                  <li>
+                      <div class=" bike-logo">
+                            <img src="/assets/bike-logo.svg">
+                    </div>
+                  </li>
+                  <li>
+                      <div class="activity-header-item">
+                        <a href="#" id="activity-title" class="link-dark">{{title}}</a>
+                      </div>
+                  </li>
+                </ul>
+                <div class="activity-stats">
+                  <ul class="activity-stat-items">
+                    <li>
+                        <div class="activity-stat-item">
+                        Distance
+                        <br>
+                        <a href="#" class="link-dark stat-nums">{{miles}} mi</a>
+                      </div>
+                    </li>
+                    <div id="vert-bar"></div>
+                    <li>
+                        <div class="activity-stat-item">
+                        Elev Gain
+                        <br>
+                        <a href="#" class="link-dark stat-nums">{{elev}} ft</a>
+                        </div>
+                    </li>
+                    <div id="vert-bar"></div>
+        
+                    <li>
+                        <div class="activity-stat-item">
+                        Time
+                        <br>
+                        <a href="#" class="link-dark stat-nums">{{time}}</a>
+                        </div>
+                    </li>
+
+                    <li>
+                      <div class="activity-stat-item">
+                        Achievements
+                      <br>
+                      <a href="#" class="link-dark">
+                        <div class="acheivements-logo">
+                          <img src="/assets/acheivement-logo.svg" class="acheivement-img"> {{acheiv}}
+                  </div>
+                      </a>
+                      </div>
+                  </li>
+                  </ul>
+                  </div>
+                  <img src="{{img}}" width="548" height="222">
+
+                  <div class="kudos-comments">
+                      <ul class="kudos-comments-items">
+                        <li>
+                            <div class="kudos-comment-item">
+                              <div class="kudo-pics">
+                                  <img src="/assets/avatar-pic.png" class="kudo-pic">
+                                  <img src="/assets/avatar-pic.png" class="kudo-pic">
+                                  <img src="/assets/avatar-pic.png" class="kudo-pic">
+                          </div>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="kudos">
+                            <a href="#" class="link-dark kudos">{{kudos}} kudos</a>
+                          </div>
+                      </li>
+                        <li>
+                            <div class="activity-header-item">
+                              <button type="button" class="h-100 btn kudo-btn"><img src="/assets/comment-logo.svg"></button>
+                            </div>
+                        </li>
+                        <li>
+                          <button type="button" class="kudo-btn h-100 btn mx-2" ><img src="/assets/kudo-logo.svg"></button>
+                        </li>
+                      </ul>
+                      </div>
+    
+    
     </div>
-    <div class="col-md-8">
-      <div class="right-side">
-        <a class="link-dark challenge-title">{{title}}</a>
-        <div class="participants-text">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill="currentColor" width="16" height="16"><path d="M4.67 2a.17.17 0 01.1 0c.4.29-.2 1.38 1 1.86a2.47 2.47 0 00.91.18C8 4.07 8.78 3 9.43 3a.54.54 0 01.32.11A6.48 6.48 0 0110.27 5s1.32 3.53 1.55 3.88 3.18 2.7 3.18 2.7c0 .55-1.53 1.42-3.41 1.42a5.6 5.6 0 01-2.92-.8c-2.36-1.43-2-2-4.16-2.91C2 8.33 1.15 7.32 1 6l1-.73C2.91 3.68 4.18 2 4.67 2m0-1c-1.1 0-2.44 1.89-3.41 3.55l-.84.6a1 1 0 00-.42.92c.2 1.85 1.44 3.09 4.14 4.15A4.62 4.62 0 016 11.4a11.26 11.26 0 002.16 1.66 6.63 6.63 0 003.44.94c2.07 0 4.4-1 4.4-2.42a1 1 0 00-.37-.78c-1.23-1-2.69-2.22-3-2.53s-.83-2-1.4-3.56c-.32-2-.67-2.26-.9-2.43a1.54 1.54 0 00-.9-.28A2.74 2.74 0 008 2.55a2.51 2.51 0 01-1.28.52A1.47 1.47 0 016.16 3C6 2.89 6 2.89 5.95 2.52a1.6 1.6 0 00-.59-1.3A1.16 1.16 0 004.67 1z"></path><path d="M4.67 2a.17.17 0 01.1 0c.4.29-.2 1.38 1 1.86a2.47 2.47 0 00.91.18C8 4.07 8.78 3 9.43 3a.54.54 0 01.32.11A6.48 6.48 0 0110.27 5s1.32 3.53 1.55 3.88 3.18 2.7 3.18 2.7c0 .55-1.53 1.42-3.41 1.42a5.6 5.6 0 01-2.92-.8c-2.36-1.43-2-2-4.16-2.91C2 8.33 1.15 7.32 1 6l1-.73C2.91 3.68 4.18 2 4.67 2m0-1c-1.1 0-2.44 1.89-3.41 3.55l-.84.6a1 1 0 00-.42.92c.2 1.85 1.44 3.09 4.14 4.15A4.62 4.62 0 016 11.4a11.26 11.26 0 002.16 1.66 6.63 6.63 0 003.44.94c2.07 0 4.4-1 4.4-2.42a1 1 0 00-.37-.78c-1.23-1-2.69-2.22-3-2.53s-.83-2-1.4-3.56c-.32-2-.67-2.26-.9-2.43a1.54 1.54 0 00-.9-.28A2.74 2.74 0 008 2.55a2.51 2.51 0 01-1.28.52A1.47 1.47 0 016.16 3C6 2.89 6 2.89 5.95 2.52a1.6 1.6 0 00-.59-1.3A1.16 1.16 0 004.67 1z"></path></svg>
-        {{participants}} participants · {{days}} days left
-        </div>
-        <div>
-          <button type="button" class="h-100 btn my-3" style="background-color: #fc5200; color:white; font-size:13px">Join challenge</button>
-        </div>
-      </div>
-    </div>
   </div>
-  </div>
-</div>
