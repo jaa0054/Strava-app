@@ -14,3 +14,11 @@ a:hover {
     color: #fc5200;
   }
 
+  .navbar{
+    background-color: #ffffff; font-family:Segoe UI; font-size:14px
+}
+
+.btn-sub{
+    background-color: #fc5200; color:white; font-size:13px
+}
+
