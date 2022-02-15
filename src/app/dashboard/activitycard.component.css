@@ -1,9 +1,47 @@
 .card{
     margin-top: 70px;
     margin-left: 30px;
+    padding-top: 10px;
     border-color: white;
     border-radius: 3px;
     max-width: 592px;
+}
+
+ul{
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: -10px;
+
+}
+
+li{
+    margin-bottom: 0px;
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: small;
+}
+
+a:hover{
+    color: #007FB6;
+}
+
+.activity-header{
+    font-size: 12px;
+    margin-bottom: -25px;
+}
+
+.activity-header-items{
+    display: inline-flex;
+    margin-left: -20px;
+
+}
+
+.activity-header-item{
+    margin-left: 30px;
 }
 
 .avatar-pic{
@@ -14,63 +52,14 @@
     margin-top: 0px;
 }
 
-.kudo-pic{
-    width: 25px;
-    height: 25px;
-    border-radius: 50%;
-    border-color: white;
-    margin-left: -10px;
-    margin-top: 0px;
-    border: 2px solid #ffff;
-}
-
-.kudos-comments{
-    margin-top: 30px;
-    margin-bottom: -15px;
-}
-
-.kudos{
-    font-size: small;
-    color: grey;
-    margin-right: 135px;
-    margin-left: 5px;
-    margin-top: 5px;
-}
-
-.kudo-btn{
-    background-color: #f7f7f7; 
-    color:white; 
-    height: 20px;
-}
-
-
 .badge{
-    top: 20px;
+    top: 15px;
     margin-left: -5px;
 }
 
 .premium-badge{
     width: 18px;
     height: 18px;
-}
-
-.right-side{
-    margin-left: 10px;
-}
-
-a:link{
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: small;
-}
-
-.challenge-statement{
-    font-size: small;
-}
-
-a:hover{
-    color: #007FB6;
 }
 
 #activity-title{
@@ -81,37 +70,8 @@ a:hover{
     margin-top: -5px;
 }
 
-.participants-text{
-    font-size: small;
-    color: rgb(70, 70, 70);
-}
-
-
-
-
-
-
-
-.activity-header{
-    font-size: 12px;
-}
-
-.activity-header-items{
-    display: inline-flex;
-    margin-left: -20px;
-
-}
-
 .bike-logo{
     margin-left: 5px;
-}
-
-.acheivement-logo{
-    margin-left: 5px;
-}
-
-.activity-header-item{
-    margin-left: 30px;
 }
 
 .activity-stats{
@@ -128,7 +88,6 @@ a:hover{
     margin-left: 30px;
 }
 
-
 a.stat-nums{
     font-size: large;
     font-weight: lighter;
@@ -142,29 +101,41 @@ a.stat-nums{
     margin-right: 0px;
 }
 
-ul{
-    list-style-type: none;
-    display: inline-flex;
-    margin-left: -10px;
-
-}
-
-li{
-    margin-bottom: 0px;
-}
-
-.activity-header{
-    margin-bottom: -25px;
-}
-
 .acheivements-logo{
     margin-left: 10px;
     font-size:x-large;
     font-weight: lighter;
 }
 
-
-
 .acheivement-img{
     margin-right: 5px;
+}
+
+.kudos-comments{
+    margin-top: 30px;
+    margin-bottom: -15px;
+}
+
+.kudo-pic{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-color: white;
+    margin-left: -10px;
+    margin-top: 0px;
+    border: 2px solid #ffff;
+}
+
+.kudos{
+    font-size: small;
+    color: grey;
+    margin-right: 135px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.kudo-btn{
+    background-color: #f7f7f7; 
+    color:white; 
+    height: 20px;
 }

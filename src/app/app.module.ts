@@ -7,6 +7,7 @@ import { ChallengeCardComponent } from './dashboard/challengecard.component';
 import { ProfileCardComponent } from './dashboard/profilecard.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { TopNavBarComponent } from './navigation/topnavbar.component';
     
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

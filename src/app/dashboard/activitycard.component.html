@@ -1,108 +1,108 @@
 <div class="card m-3">
-    <div class="m-3">
-
-        <div class="activity-header">
-            <ul class="activity-header-items">
-              <li>
-                  <div class="activity-header-item">
-                    <div class="avatar-body">
-                        <img src="/assets/avatar-pic.png" class="avatar-pic">
-                        <span class="position-absolute  translate-middle badge"><img src="/assets/premium-badge.svg" class="premium-badge"></span>
-                       <!--<img src="/assets/premium-badge.svg" class="premium-badge">-->
-                </div>                  <br>
-                </div>
-              </li>
-              <li>
-                  <div class="activity-header-item">
-                    <a href="#" class="link-dark">{{user}}</a>
-                  <br>
-                  Today at {{tod}}
-                  </div>
-              </li>
-            </ul>
+    <div class="activity-header">
+        <ul class="activity-header-items">
+          <li>
+            <div class="activity-header-item">
+              <div class="avatar-body">
+                <img src="/assets/avatar-pic.png" class="avatar-pic">
+                <span class="position-absolute  translate-middle badge"><img src="/assets/premium-badge.svg" class="premium-badge"></span>
+              </div>                  
+              <br>
             </div>
+          </li>
+          <li>
+            <div class="activity-header-item">
+              <a href="#" class="link-dark">{{user}}</a>
+            <br>
+            Today at {{tod}}
+            </div>
+          </li>
+        </ul>
+      </div>
 
-                <ul class="activity-header-items">
-                  <li>
-                      <div class=" bike-logo">
-                            <img src="/assets/bike-logo.svg">
-                    </div>
-                  </li>
-                  <li>
-                      <div class="activity-header-item">
-                        <a href="#" id="activity-title" class="link-dark">{{title}}</a>
-                      </div>
-                  </li>
-                </ul>
-                <div class="activity-stats">
-                  <ul class="activity-stat-items">
-                    <li>
-                        <div class="activity-stat-item">
-                        Distance
-                        <br>
-                        <a href="#" class="link-dark stat-nums">{{miles}} mi</a>
-                      </div>
-                    </li>
-                    <div id="vert-bar"></div>
-                    <li>
-                        <div class="activity-stat-item">
-                        Elev Gain
-                        <br>
-                        <a href="#" class="link-dark stat-nums">{{elev}} ft</a>
-                        </div>
-                    </li>
-                    <div id="vert-bar"></div>
-        
-                    <li>
-                        <div class="activity-stat-item">
-                        Time
-                        <br>
-                        <a href="#" class="link-dark stat-nums">{{time}}</a>
-                        </div>
-                    </li>
+      <div>
+          <ul class="activity-header-items">
+            <li>
+              <div class=" bike-logo">
+                <img src="/assets/bike-logo.svg">
+              </div>
+            </li>
+            <li>
+              <div class="activity-header-item">
+                <a href="#" id="activity-title" class="link-dark">{{title}}</a>
+              </div>
+            </li>
+          </ul>
+      </div>
 
-                    <li>
-                      <div class="activity-stat-item">
-                        Achievements
-                      <br>
-                      <a href="#" class="link-dark">
-                        <div class="acheivements-logo">
-                          <img src="/assets/acheivement-logo.svg" class="acheivement-img"> {{acheiv}}
+      <div class="activity-stats">
+        <ul class="activity-stat-items">
+          <li>
+              <div class="activity-stat-item">
+                Distance
+                <br>
+                <a href="#" class="link-dark stat-nums">{{miles}} mi</a>
+            </div>
+          </li>
+      <div id="vert-bar"></div>
+          <li>
+              <div class="activity-stat-item">
+                Elev Gain
+                <br>
+                <a href="#" class="link-dark stat-nums">{{elev}} ft</a>
+              </div>
+          </li>
+      <div id="vert-bar"></div>
+          <li>
+              <div class="activity-stat-item">
+                Time
+                <br>
+                <a href="#" class="link-dark stat-nums">{{time}}</a>
+              </div>
+          </li>
+
+          <li>
+            <div class="activity-stat-item">
+              Achievements
+              <br>
+              <a href="#" class="link-dark">
+                <div class="acheivements-logo">
+                  <img src="/assets/acheivement-logo.svg" class="acheivement-img"> {{acheiv}}
+                </div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="map">
+        <img src="{{img}}" width="548" height="222">
+      </div>
+
+      <div class="kudos-comments">
+          <ul class="kudos-comments-items">
+            <li>
+                <div class="kudos-comment-item">
+                  <div class="kudo-pics">
+                      <img src="/assets/avatar-pic.png" class="kudo-pic">
+                      <img src="/assets/avatar-pic.png" class="kudo-pic">
+                      <img src="/assets/avatar-pic.png" class="kudo-pic">
                   </div>
-                      </a>
-                      </div>
-                  </li>
-                  </ul>
-                  </div>
-                  <img src="{{img}}" width="548" height="222">
-
-                  <div class="kudos-comments">
-                      <ul class="kudos-comments-items">
-                        <li>
-                            <div class="kudos-comment-item">
-                              <div class="kudo-pics">
-                                  <img src="/assets/avatar-pic.png" class="kudo-pic">
-                                  <img src="/assets/avatar-pic.png" class="kudo-pic">
-                                  <img src="/assets/avatar-pic.png" class="kudo-pic">
-                          </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="kudos">
-                            <a href="#" class="link-dark kudos">{{kudos}} kudos</a>
-                          </div>
-                      </li>
-                        <li>
-                            <div class="activity-header-item">
-                              <button type="button" class="h-100 btn kudo-btn"><img src="/assets/comment-logo.svg"></button>
-                            </div>
-                        </li>
-                        <li>
-                          <button type="button" class="kudo-btn h-100 btn mx-2" ><img src="/assets/kudo-logo.svg"></button>
-                        </li>
-                      </ul>
-                      </div>
-    
-    
-    </div>
-  </div>
+                </div>
+            </li>
+            <li>
+              <div class="kudos">
+                <a href="#" class="link-dark kudos">{{kudos}} kudos</a>
+              </div>
+            </li>
+            <li>
+                <div class="activity-header-item">
+                  <button type="button" class="h-100 btn kudo-btn"><img src="/assets/comment-logo.svg"></button>
+                </div>
+            </li>
+            <li>
+              <button type="button" class="kudo-btn h-100 btn mx-2" ><img src="/assets/kudo-logo.svg"></button>
+            </li>
+          </ul>
+        </div>
+</div>
