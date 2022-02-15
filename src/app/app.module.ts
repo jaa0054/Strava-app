@@ -8,6 +8,7 @@ import { ProfileCardComponent } from './dashboard/profilecard.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { AppRoutingModule } from './app-routing.module';
+import { TrainingLayoutComponent } from './dashboard/training-layout.component';
 
 @NgModule({
   declarations: [
@@ -16,8 +17,8 @@ import { AppRoutingModule } from './app-routing.module';
     BottomNavBarComponent,
     ChallengeCardComponent,
     ProfileCardComponent,
-    ActivityCardComponent
-    
+    ActivityCardComponent,
+    TrainingLayoutComponent
   ],
   imports: [
     BrowserModule,
