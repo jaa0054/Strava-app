@@ -6,8 +6,12 @@
     max-width: 592px;
 }
 
-.right-side{
-    margin-left: 10px;
+a:hover{
+    color: #007FB6;
+}
+
+.challenge-statement{
+    font-size: small;
 }
 
 a.challenge-names:link{
@@ -17,18 +21,14 @@ a.challenge-names:link{
     font-size: small;
 }
 
-.challenge-statement{
-    font-size: small;
-}
-
-a:hover{
-    color: #007FB6;
-}
-
 .challenge-title{
     text-decoration: none;
     font-size: x-large;
     font-weight: bold;
+}
+
+.right-side{
+    margin-left: 10px;
 }
 
 .participants-text{

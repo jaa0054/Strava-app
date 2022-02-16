@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light " > <!--a set of navigation links-->
     <div class="container-fluid mx-5"> <!--a section styled with CSS-->
-      <a class="navbar-brand" href="#"> <!--defines a hyperlink-->
+      <a class="navbar-brand" routerLink="Dashboard"> <!--defines a hyperlink-->
         <img src="/assets/strava-logo-orange.svg" width="100" height="40"> <!--an image-->
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <!--a clickable button-->
@@ -35,7 +35,7 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" routerLink="Training" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Training
               <img src="/assets/dropdown-arrow.svg" alt="" width="14" height="17">
             </a>
@@ -51,7 +51,7 @@
           </li>
 
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" routerLink="Explore" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Explore
               <img src="/assets/dropdown-arrow.svg" width="14" height="17">
             </a>
@@ -69,7 +69,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Challenges</a>
+            <a class="nav-link" routerLink="Challenge">Challenges</a>
           </li>
 
           
@@ -77,15 +77,15 @@
 
         <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
 
-          <button type="button" class="btn-sub h-100 btn my-3"><b>Give a Subscription</b></button>
+          <button type="button" routerLink="Subscription" class="btn-sub h-100 btn my-3"><b>Give a Subscription</b></button>
         
           <li class="nav-item m-2">
-            <a class="nav-link float-end" href="#">
+            <a class="nav-link float-end" >
               <img class="m-2" src="/assets/alert button.svg" alt="" width="20" height="20">
             </a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" routerLink="Profile" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               <img id="profile" class="m-2" src="/assets/profile-pic.png" width="32" height="32">
               <img  class="m-2" src="/assets/dropdown-arrow.svg" width="14" height="17">
             </a>

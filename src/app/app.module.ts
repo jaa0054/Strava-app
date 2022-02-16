@@ -9,6 +9,11 @@ import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { AppRoutingModule } from './app-routing.module';
 import { TrainingLayoutComponent } from './dashboard/training-layout.component';
+import { ChallengeLayoutComponent } from './dashboard/challenge-layout.component';
+import { ExploreLayoutComponent } from './dashboard/explore-layout.component';
+import { ProfileLayoutComponent } from './dashboard/profile-layout.component';
+import { SubLayoutComponent } from './dashboard/subscription-layout.component';
+import { DashboardLayoutComponent } from './dashboard/dashboard-layout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +23,12 @@ import { TrainingLayoutComponent } from './dashboard/training-layout.component';
     ChallengeCardComponent,
     ProfileCardComponent,
     ActivityCardComponent,
-    TrainingLayoutComponent
+    TrainingLayoutComponent,
+    ChallengeLayoutComponent,
+    ExploreLayoutComponent,
+    ProfileLayoutComponent,
+    SubLayoutComponent,
+    DashboardLayoutComponent
   ],
   imports: [
     BrowserModule,
