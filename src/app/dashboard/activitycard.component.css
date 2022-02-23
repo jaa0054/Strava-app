@@ -113,6 +113,7 @@ a.stat-nums{
 
 .map{
     margin-left: 20px;
+    margin-right: 20px;
 }
 
 .kudos-comments{
@@ -138,8 +139,22 @@ a.stat-nums{
     margin-top: 5px;
 }
 
+
+
 .kudo-btn{
     background-color: #f7f7f7; 
     color:white; 
     height: 20px;
+    margin-bottom: 10px;
+    margin-left: 55px;
+    border: 1px solid #f0f0f5;
+}
+
+.comment-btn{
+    background-color: #f7f7f7; 
+    color:white; 
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border: 1px solid #f0f0f5;
 }

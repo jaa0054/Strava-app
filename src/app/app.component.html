@@ -4,43 +4,10 @@
     <strava-topnavbar>Loading TopNavBar</strava-topnavbar>
 </header>
 
+<body id="body-stuff">
 <router-outlet></router-outlet>
-
-<body>
-    <div class="container">
-        <div class="row align-items-start">
-          <div class="col-4">
-            <strava-profilecard>Loading PorfileCard</strava-profilecard>
-          </div>
-          <div class="col-6" >
-            <div *ngFor="let activity of activities">
-              <strava-activitycard 
-              img = {{activity.img}}
-              title = {{activity.title}}
-              user = {{activity.user}}
-              tod = {{activity.tod}}
-              [miles] = 'activity.miles'
-              [elev] = 'activity.elev'
-              time = {{activity.time}}
-              [acheiv] = 'activity.acheiv'
-              [kudos] = 'activity.kudos'
-              >Loading ActivityCard</strava-activitycard>
-          </div>
-            <div *ngFor="let challenge of challenges">
-                <strava-challengecard img={{challenge.img}}
-                title={{challenge.title}}
-                users={{challenge.users}}
-                [participants]='challenge.participants'
-                [days]='challenge.days'
-                >Loading ActivityCard</strava-challengecard>
-            </div>
-            
-          </div>
-          <div class="col-2">.</div>
-          
-        </div>
-        </div>
 </body>
+
 
 <footer>
     <strava-bottomnavbar>Loading BottomNavBar</strava-bottomnavbar>

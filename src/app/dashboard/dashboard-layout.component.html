@@ -1,0 +1,30 @@
+<body class="bg-light">
+    <div class="d-flex flex-row bd-highlight mb-3">
+        <div class="mx-5"> 
+            <strava-profilecard>Loading PorfileCard</strava-profilecard>
+        </div>
+        <div class="mx-5 px-5">
+            <div *ngFor="let activity of activities">
+            <strava-activitycard 
+            img = {{activity.img}}
+            title = {{activity.title}}
+            user = {{activity.user}}
+            tod = {{activity.tod}}
+            [miles] = 'activity.miles'
+            [elev] = 'activity.elev'
+            time = {{activity.time}}
+            [acheiv] = 'activity.acheiv'
+            [kudos] = 'activity.kudos'
+            >Loading ActivityCard</strava-activitycard>
+        </div>
+        <div *ngFor="let challenge of challenges">
+            <strava-challengecard img={{challenge.img}}
+            title={{challenge.title}}
+            users={{challenge.users}}
+            [participants]='challenge.participants'
+            [days]='challenge.days'
+            >Loading ActivityCard</strava-challengecard>
+        </div></div>
+        
+      </div>
+</body>
