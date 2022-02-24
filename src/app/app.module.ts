@@ -19,6 +19,7 @@ import { ChallengeCatagoryComponent } from './challenges/challenge-category.comp
 import { ChallengeComponent } from './challenges/challenge.component';
 import { ProfileHeaderComponent } from './profile/header.component';
 import { ProfileComponent } from './profile/profile.component';
+import { TrophiesComponent } from './profile/trophies.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,8 @@ import { ProfileComponent } from './profile/profile.component';
     ChallengeCatagoryComponent,
     ChallengeComponent,
     ProfileHeaderComponent,
-    ProfileComponent
+    ProfileComponent,
+    TrophiesComponent
   ],
   imports: [
     BrowserModule,

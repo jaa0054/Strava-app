@@ -1,0 +1,15 @@
+p{
+    font-size: small;
+}
+
+img{
+    margin: auto;
+}
+
+.card-title, .card-text{
+    text-align: center;
+}
+
+.card{
+    border: 0px;
+}
