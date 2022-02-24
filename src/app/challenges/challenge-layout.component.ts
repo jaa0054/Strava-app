@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { ChallengeModel } from "./challenge-item.model";
+import { challenge_list } from "./challenge-list";
 
 
 @Component({
@@ -6,5 +8,11 @@ import { Component } from "@angular/core";
     templateUrl: 'challenge-layout.component.html'
 })
 export class ChallengeLayoutComponent{
-    
+    challenges: ChallengeModel [] = [];
+
+    constructor() {
+        for (var challenge of challenge_list) {
+          this.challenges.push(challenge);
+        }
+        }
 }

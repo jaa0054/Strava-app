@@ -16,6 +16,7 @@ import { SubLayoutComponent } from './subscription/subscription-layout.component
 import { DashboardLayoutComponent } from './dashboard/dashboard-layout.component';
 import { MainChallengeComponent } from './challenges/main-challenge.component';
 import { ChallengeCatagoryComponent } from './challenges/challenge-category.component';
+import { ChallengeComponent } from './challenges/challenge.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { ChallengeCatagoryComponent } from './challenges/challenge-category.comp
     SubLayoutComponent,
     DashboardLayoutComponent,
     MainChallengeComponent,
-    ChallengeCatagoryComponent
+    ChallengeCatagoryComponent,
+    ChallengeComponent
   ],
   imports: [
     BrowserModule,
