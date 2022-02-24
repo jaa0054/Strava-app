@@ -1,0 +1,42 @@
+.card{
+    margin-top: 70px;
+    margin-left: 30px;
+    border-color: white;
+    border-radius: 3px;
+    width: 18rem;
+}
+
+
+
+a:link{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: #007FB6;
+}
+
+.avatar-pic{
+    border-radius: 50%;
+    border: 2px solid #f0f0f5;
+    max-width: 150px;
+}
+
+.row{
+    margin-top: -75px;
+    margin-left: 25px;
+}
+
+.card-body{
+    margin-left: -10px;
+}
+#name{
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.sub, .loc{
+    font-size: 13px;
+}
+

@@ -17,6 +17,8 @@ import { DashboardLayoutComponent } from './dashboard/dashboard-layout.component
 import { MainChallengeComponent } from './challenges/main-challenge.component';
 import { ChallengeCatagoryComponent } from './challenges/challenge-category.component';
 import { ChallengeComponent } from './challenges/challenge.component';
+import { ProfileHeaderComponent } from './profile/header.component';
+import { ProfileComponent } from './profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,9 @@ import { ChallengeComponent } from './challenges/challenge.component';
     DashboardLayoutComponent,
     MainChallengeComponent,
     ChallengeCatagoryComponent,
-    ChallengeComponent
+    ChallengeComponent,
+    ProfileHeaderComponent,
+    ProfileComponent
   ],
   imports: [
     BrowserModule,
