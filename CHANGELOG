@@ -1,7 +1,11 @@
 Main features:
-Created the following layout components:
-	Dashboard-Layout
-	Training-Layout
-	Challenge-Layout
-	Subscription-Layout
-	Profile-Layout
+Moved relevant dashboard components to the dashboard-layout.html
+Created the following elements in the Challenges page
+	- A main Challenge component
+	- A Challenge categories component
+	- 5 iterations of a Challenge via an ngFor loop
+Created the following components on the profile page
+	- A header containing the users recent photos
+	- A profile info section that blends into the header
+	- A trophie card to be interated with an ngFor loop at a later time
+	
