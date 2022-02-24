@@ -6,6 +6,30 @@
     max-width: 592px;
 }
 
+.card-text{
+    margin-bottom: 0px;
+    font-size: small;
+}
+
+.card-title{
+    font-size: medium;
+}
+
+#challenge-title{
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+}
+
+#challenge-data{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.btn-join{
+    background-color: #fc5200; color:white; font-size:13px
+}
+
 a:hover{
     color: #007FB6;
 }

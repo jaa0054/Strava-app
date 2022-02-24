@@ -25,7 +25,7 @@ const routes:Routes  = [
     path: 'Subscription', component: SubLayoutComponent
   },
   {
-    path: 'Dashboard', component: DashboardLayoutComponent
+    path: '', component: DashboardLayoutComponent
   }
 ];
 

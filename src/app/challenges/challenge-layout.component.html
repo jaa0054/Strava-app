@@ -6,7 +6,7 @@
     </div>
     <div class="col-2"></div>
 </div>
-<div class="row my-3">
+<div class="row">
     <div class="col-2"></div>
     <div class="col-8">
         <strava-challenge-category></strava-challenge-category>
@@ -14,10 +14,10 @@
     <div class="col-2"></div>
 </div>
 
-<div class="row my-3">
+<div class="row">
     <div class="col-2"></div>
     <div class="col-8">
-        <div class="row">
+        <div class="row my-3">
             <div class="col-1"><img src="\assets\avatar-pic.png" style="border-radius: 50%;" width="30" height="30"></div> <!--could not get these into a css file-->
             <div class="col-3 px-0" style="margin-left: -30px;"><h5>Reccomended For You</h5></div>
             <div class="col-2 px-0 text-secondary" style="font-size: 11px; margin-left: -60px; margin-top: 5px;"><p><b>Based on your activites</b></p></div>
@@ -31,12 +31,12 @@
     <div class="col-2"></div>
     <div class="col-8">
         <div *ngFor="let challenge of challenges">
-            <strava-challengecard img={{challenge.img}}
+            <strava-challenge img={{challenge.img}}
             title={{challenge.title}}
-            users={{challenge.users}}
-            [participants]='challenge.participants'
-            [days]='challenge.days'
-            >Loading ActivityCard</strava-challengecard>
+            description={{challenge.description}}
+            date={{challenge.date}}
+            friends={{challenge.friends}}
+            >Loading Challenge</strava-challenge>
         </div>
     </div>
     <div class="col-2"></div>

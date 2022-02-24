@@ -8,15 +8,15 @@ import { Component, Input } from "@angular/core";
 export class ChallengeComponent {
     @Input() img:string;
     @Input() title:string;
-    @Input() users:string;
-    @Input() participants:number;
-    @Input() days:number;
+    @Input() description:string;
+    @Input() date:string;
+    @Input() friends:string;
 
     constructor() {
         this.img = "";
         this.title = "";
-        this.users = "";
-        this.participants = 0;
-        this.days = 0;
+        this.description = "";
+        this.date = "";
+        this.friends = "";
     }
 }
