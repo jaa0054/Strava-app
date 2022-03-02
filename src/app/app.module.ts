@@ -20,6 +20,8 @@ import { ChallengeComponent } from './challenges/challenge.component';
 import { ProfileHeaderComponent } from './profile/header.component';
 import { ProfileComponent } from './profile/profile.component';
 import { TrophiesComponent } from './profile/trophies.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -40,11 +42,14 @@ import { TrophiesComponent } from './profile/trophies.component';
     ChallengeComponent,
     ProfileHeaderComponent,
     ProfileComponent,
-    TrophiesComponent
+    TrophiesComponent,
+    UserInfoComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
