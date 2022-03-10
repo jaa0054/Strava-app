@@ -1,8 +1,13 @@
 Main features:
-Created the following elements in the Challenges page
-Added a header to every page with the following info:
-	User's Name
-	Github Link
-	Mix Email
-The above data is linked to a "Firebase database" and imported via the files in the user-info folder
+added info from the previous 'activity-list.ts' to the database and linked the components to it
+	The following info is now linked to the database:
+		img
+        title
+        user
+        tod
+        miles
+        elev
+        time
+        acheiv
+        kudos
 	
