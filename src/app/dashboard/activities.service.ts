@@ -1,19 +1,19 @@
-import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { ActivityModel } from "./activity-item.model";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
+
 
 @Injectable({
     providedIn:'root'
 })
 export class ActivityService{
-    private baseURL:string = 'https://strava-app-7bfe3-default-rtdb.firebaseio.com/';
-    private activitiesEndPoint:string = 'activities/.json';
+    
 
-    constructor(private http:HttpClient){
+    constructor(private db:AngularFireDatabase){
         
     }
 
     public getActivities() {
-        return this.http.get<ActivityModel []>(this.baseURL + this.activitiesEndPoint);
+        return this.db.list<ActivityModel>("activities").valueChanges();
     }
 }
