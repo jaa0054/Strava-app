@@ -1,13 +1,5 @@
 Main features:
-added info from the previous 'activity-list.ts' to the database and linked the components to it
-	The following info is now linked to the database:
-		img
-        title
-        user
-        tod
-        miles
-        elev
-        time
-        acheiv
-        kudos
+Deployed website to the internet via firebase
+Removed HTTpClient dependency and injected AngularFireDatabase
+
 	
