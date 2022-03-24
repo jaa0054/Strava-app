@@ -7,6 +7,7 @@ import { ExploreLayoutComponent } from './explore/explore-layout.component';
 import { ProfileLayoutComponent } from './profile/profile-layout.component';
 import { SubLayoutComponent } from './subscription/subscription-layout.component';
 import { DashboardLayoutComponent } from './dashboard/dashboard-layout.component';
+import { AddActivityComponent } from './dashboard/add-activity/add-activity.component';
 
 const routes:Routes  = [
   {
@@ -26,6 +27,9 @@ const routes:Routes  = [
   },
   {
     path: '', component: DashboardLayoutComponent
+  },
+  {
+    path: 'admin', component: AddActivityComponent
   }
 ];
 

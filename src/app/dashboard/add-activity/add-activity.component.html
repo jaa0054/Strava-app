@@ -1,0 +1,15 @@
+<div class="container">
+    <div class="row">
+        <div class="col-8">
+            <form #addActivityForm="ngForm" (ngSubmit)="addActvity(addActivityForm.value)">
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity Image Path:
+                    </span>
+                    <input type="text" class="form-control" placeholder="Image Path" ngModel name="img" required>
+                </div>
+                <button class="btn" type="submit" [disabled]="!addActivityForm.valid">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

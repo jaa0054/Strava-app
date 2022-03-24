@@ -16,4 +16,8 @@ export class ActivityService{
     public getActivities() {
         return this.db.list<ActivityModel>("activities").valueChanges();
     }
+
+    public addActivity(activity:ActivityModel) {
+        this.db.list<ActivityModel>("activities").push(activity);
+    }
 }
