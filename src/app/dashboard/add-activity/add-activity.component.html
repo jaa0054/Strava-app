@@ -4,12 +4,71 @@
             <form #addActivityForm="ngForm" (ngSubmit)="addActvity(addActivityForm.value)">
                 <div class="aciton-group">
                     <span class="input-group-text">
-                        Actvity Image Path: Test
+                        Actvity Image Path:
                     </span>
                     <input type="text" class="form-control" placeholder="Image Path" ngModel name="img" required>
                 </div>
+
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity title:
+                    </span>
+                    <input type="text" class="form-control" placeholder="Title" ngModel name="title" required>
+                </div>
+
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity User:
+                    </span>
+                    <input type="text" class="form-control" placeholder="User" ngModel name="user" required>
+                </div>
+
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity Time of Day:
+                    </span>
+                    <input type="text" class="form-control" placeholder="Time of Day" ngModel name="tod" required>
+                </div>
+
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity Miles:
+                    </span>
+                    <input type="text" class="form-control" placeholder="Miles" ngModel name="miles" required>
+                </div>
+
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity Elevation:
+                    </span>
+                    <input type="text" class="form-control" placeholder="Elevation" ngModel name="elev" required>
+                </div>
+
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity Time:
+                    </span>
+                    <input type="text" class="form-control" placeholder="Time" ngModel name="time" required>
+                </div>
+
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity Acheivements:
+                    </span>
+                    <input type="text" class="form-control" placeholder="Acheivements" ngModel name="acheiv" required>
+                </div>
+
+                <div class="aciton-group">
+                    <span class="input-group-text">
+                        Actvity Kudos:
+                    </span>
+                    <input type="text" class="form-control" placeholder="Kudos" ngModel name="kudos" required>
+                </div>
+
+                
                 <button class="btn" type="submit" [disabled]="!addActivityForm.valid">Submit</button>
             </form>
+
         </div>
     </div>
 </div>

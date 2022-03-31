@@ -1,5 +1,12 @@
 Main features:
-Deployed website to the internet via firebase
-Removed HTTpClient dependency and injected AngularFireDatabase
-
+Added a form under the routing /admin to add a new activity with the following attributes:
+    img
+    title
+    user
+    time of day
+    miles
+    elevation
+    time 
+    acheivments
+    kudos
 	
