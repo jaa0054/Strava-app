@@ -29,6 +29,7 @@ import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { AddActivityComponent } from './dashboard/add-activity/add-activity.component';
 import { FormsModule } from '@angular/forms';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 
 
@@ -54,7 +55,8 @@ import { FormsModule } from '@angular/forms';
     TrophiesComponent,
     UserInfoComponent,
     UserInfoComponent,
-    AddActivityComponent
+    AddActivityComponent,
+    AuthenticationComponent
   ],
   imports: [
     BrowserModule,

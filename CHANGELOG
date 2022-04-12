@@ -1,12 +1,3 @@
 Main features:
-Added a form under the routing /admin to add a new activity with the following attributes:
-    img
-    title
-    user
-    time of day
-    miles
-    elevation
-    time 
-    acheivments
-    kudos
+Added an authetication component and used firebase to add authenticated users
 	

@@ -1,0 +1,32 @@
+<div class="contianer">
+    <div class="row">
+        <div class="col-4">
+            <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Email
+                    </span>
+                    <input type="text" class="form-control" placeholder="user@email.com"
+                        ngModel name="email"
+                        required email>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text">
+                        Password
+                    </span>
+                    <input type="password" class="form-control" placeholder="mininum length 8 characters"
+                        ngModel name="password"
+                        required password minlength="8">
+                </div>
+
+                <button class="btn btn-primary" type="submit" [disabled]="!authForm.valid">
+                    Login
+                </button>
+                <button class="btn btn-dark" type="submit" [disabled]="!authForm.valid">
+                    Sign up
+                </button>
+            </form>
+        </div>
+    </div>
+</div>

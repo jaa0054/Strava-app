@@ -8,6 +8,7 @@ import { ProfileLayoutComponent } from './profile/profile-layout.component';
 import { SubLayoutComponent } from './subscription/subscription-layout.component';
 import { DashboardLayoutComponent } from './dashboard/dashboard-layout.component';
 import { AddActivityComponent } from './dashboard/add-activity/add-activity.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes:Routes  = [
   {
@@ -30,6 +31,9 @@ const routes:Routes  = [
   },
   {
     path: 'admin', component: AddActivityComponent
+  },
+  {
+    path: 'auth', component: AuthenticationComponent
   }
 ];
 
